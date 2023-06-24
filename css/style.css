@@ -840,6 +840,11 @@ hr{
 .l1{
     float: right;
 }
-.socila{
-    display: inline-block;
+.social a{
+    /* display: inline-block; */
+    text-decoration: none;
+    color: #fff;
+}
+.social a:hover{
+    color: #ff1140;
 }
