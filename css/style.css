@@ -508,6 +508,13 @@ body{
     line-height: 1.8rem;
     list-style: none;
 }
+.pricing-div:hover h3{
+    color: #ff214f;
+}
+.pricing-div:hover .circle{
+    background-color: #201b54;
+    color: #ff1140;
+}
 .pricing-div::after{
     content: "";
     position: absolute;
@@ -833,6 +840,10 @@ hr{
 .footer-list{
     list-style-type: none;
     float: left;
+}
+.footer-list a{
+    text-decoration: none;
+    color: #fff;
 }
 .footer-list li{
     margin-bottom: 15px;
